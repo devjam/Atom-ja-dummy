@@ -1,0 +1,32 @@
+{
+  "name": "atom-ja-dummy",
+  "main": "./lib/atom-ja-dummy",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "author": {
+    "name": "SHIFTBRAIN Inc.",
+    "url": "http://www.shiftbrain.co.jp/"
+  },
+  "contributors": [
+    {
+      "name": "Sheenan Tenepre",
+      "email": "sheenan.tenepre@shifbrain.co.jp"
+    }
+  ],
+  "keywords": [
+      "Japanese text generator",
+      "Japanese Lorem Ipsum",
+      "Japanese Text",
+      "Japanese Lorem"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-ja-dummy:generateFirst"
+  },
+  "repository": "https://github.com/devjam/Atom-ja-dummy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

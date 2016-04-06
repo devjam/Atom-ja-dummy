@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Generate atom-ja-dummy'
+      'command': 'atom-ja-dummy:generate'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-ja-dummy'
+      'submenu': [
+        {
+          'label': 'Generate Type 1 text'
+          'command': 'atom-ja-dummy:generateFirst'
+        },
+        {
+          'label': 'Generate Type 2 text'
+          'command': 'atom-ja-dummy:generateSecond'
+        },
+        {
+          'label': 'Generate Type 3 text'
+          'command': 'atom-ja-dummy:generateThird'
+        }
+      ]
+    ]
+  }
+]
